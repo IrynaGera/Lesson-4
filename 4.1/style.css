@@ -1,0 +1,27 @@
+.title {
+    text-align: center;
+    color: white;
+    background:#B70028;
+}
+.text {
+    font-size: 18px;
+}
+.carplace {
+    text-align: center;
+}
+.carphoto {
+    border: 2px dashed;
+}
+.blueitalic {
+    color: #5200FF;
+    font-style: italic;
+}
+.colortext {
+    color: #8100FF;
+}
+footer {
+    font-size: 20px;
+    text-align: center;
+    background-color:#000000;
+    color: white;
+}
