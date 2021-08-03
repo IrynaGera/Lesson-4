@@ -1,23 +1,38 @@
 .container {
     background-color: #AA0004;
 }
+
 header {
     text-align: center;
 }
-.pictures {
+
+.picture {
     background-color: black;
-    text-align: center;
+    margin: 0;
+    padding: 0;  
 }
-.photo {
-    width: 17%;
+
+img {
+    display: block;
+    max-width: 100%;
+    margin: auto;
+}
+
+.picture li {
     display: inline-block;
+    width: 17%;
+    padding: 0 15px;
+    margin: 20px 0;    
 }
+
 .titleofpage {
     color: white;
 }
+
 .position {
     display: flex;
 }
+
 .text1 {
     background-color: #8B0006;
     font-size: 18px;
@@ -26,30 +41,52 @@ header {
     width: 20%;
     margin-bottom: 15px;
 }
+
 .text2 {
     color: white;
     font-size: 18px;
     width: 60%;
 }
+
 .article {
     background-color: #E5DCDD;
     width: 20%;
     margin-bottom: 15px;
     font-size: 18px;
 }
+
 .title {
     background-color: #BDBDBD;
     text-align: center;
     margin: auto;
 }
+
  hr {
     border: 1px solid grey;
     width: 20%;
 }
+
 footer {
     font-size: 20px;
     text-align: center;
     background-color: #FF3E04;
     color: white;
+}
+
+a {
+    text-decoration: none;
+}
+
+.aside1 {
+    padding: 0;
+}
+
+.aside1 li {
+    list-style: none;
+    padding: 0;
+}
+
+.color {
+    color: #F23301;
 }
   

@@ -3,22 +3,40 @@
     color: white;
     background:#B70028;
 }
+
 .text {
     font-size: 18px;
 }
+
 .carplace {
     text-align: center;
 }
-.carphoto {
+
+.cars {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.cars li {
+    display: inline-block;
     border: 2px dashed;
 }
+
+img {
+    display: block;
+    max-width: 100%;
+}
+
 .blueitalic {
     color: #5200FF;
     font-style: italic;
 }
+
 .colortext {
     color: #8100FF;
 }
+
 footer {
     font-size: 20px;
     text-align: center;
